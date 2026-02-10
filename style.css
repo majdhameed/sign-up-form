@@ -140,10 +140,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form{
-    flex:3;
+    flex:2;
+    flex-direction: column;
+    display: flex;
+    padding-left: 50px;
 }
 
 .signup{
     background-color: whitesmoke;
     flex:2
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+input {
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+input:invalid{
+    border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px
 }
