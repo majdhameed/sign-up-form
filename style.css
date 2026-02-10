@@ -109,7 +109,41 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-size: 80px;
 }
+.credit{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    z-index: 2;
+    inset: 0;
+    top: auto;
+    justify-self: center;
+}
+
 .main{
     flex: 3;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    flex:2;
+    background-color: whitesmoke;
+    padding-left: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.intro-text{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.form{
+    flex:3;
+}
+
+.signup{
+    background-color: whitesmoke;
+    flex:2
 }
